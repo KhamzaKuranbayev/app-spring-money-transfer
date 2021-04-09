@@ -52,19 +52,4 @@ public class CardServiceImpl implements CardService {
         return cardRepository.findAll();
     }
 
-    @Override
-    public Card findOneById(Integer cardId) {
-        Optional<Card> optionalCard = cardRepository.findById(cardId);
-        return null;
-    }
-
-    @Override
-    public Response edit(Integer cadId, CardDto cardDto) {
-        return null;
-    }
-
-    @Override
-    public Response delete(Integer cadId) {
-        return null;
-    }
 }

@@ -14,11 +14,4 @@ public interface CardService {
 
     List<Card> findAll();
 
-    Card findOneById(Integer cardId);
-
-    Response edit(Integer cadId, CardDto cardDto);
-
-    Response delete(Integer cadId);
-
-
 }
